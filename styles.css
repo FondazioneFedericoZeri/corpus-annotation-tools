@@ -135,11 +135,12 @@ body {
     transform: translateY(-5px); /* Slightly lift the card */
 }
 
-.card:hover:p {
-    color: #333;
+.card:hover p {
+    color: #333; /* Change paragraph text color to black on hover */
 }
 
-.card:hover:plus {
+
+.card:hover plus {
     color: white;
 }
 
