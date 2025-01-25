@@ -322,10 +322,11 @@ body {
     text-transform: lowercase;
 }
 
-/* Dark background for specific rows */
-.pivot-table tr.software, .pivot-table tr.data-support {
+.pivot-table table tr.software, 
+.pivot-table table tr.data-support {
     background-color: #333; /* Dark gray background */
     color: white; /* White text for contrast */
 }
+
 
 
