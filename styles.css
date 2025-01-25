@@ -28,20 +28,24 @@ body {
     background-color: rgba(0, 148, 126, 0.897);
     padding: 20px;
     border-right: 1px solid var(--space-cadet);
-    overflow-y: auto;
+    overflow-y: visible;
     height: 100vh;
-    color: var(--white);
+    color: white;
+    box-sizing: border-box;
 }
 
 /* Title Above Cards */
 
 .surveyed-tools-title {
-    color: white; /* Mantieni il bianco per un buon contrasto */
-    font-size: 24px; /* Dimensione del testo */
-    font-weight: bold; /* Grassetto */
-    margin-bottom: 20px; /* Spazio sotto il titolo */
-    text-align: center; /* Centra il testo */
+    color: white; /* Colore del testo */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid red; /* Debug: bordo visibile */
+    background-color: blue; /* Debug: sfondo visibile */
 }
+
 
 
 /* Content */
