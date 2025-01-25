@@ -284,11 +284,11 @@ body {
 /* Pivot Table Customizations */
 .pivot-table table {
     width: 100%;
-    border-spacing: 5;
+    border-spacing: 10;
     margin-top: 20px;
     background: var(--antiflash-white);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border: 0px solid var(--prussian-blue);
+    border: 0px solid #333;
 }
 
 .pivot-table th, .pivot-table td {
