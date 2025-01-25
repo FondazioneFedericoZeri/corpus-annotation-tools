@@ -281,3 +281,27 @@ body {
     font-weight: 100;
 }
 
+/* Pivot Table Customizations */
+.pivot-table table {
+    width: 100%;
+    border-spacing: 0;
+    margin-top: 20px;
+    background: var(--antiflash-white);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 0px solid var(--prussian-blue);
+}
+
+.pivot-table th, .pivot-table td {
+    border: 1px solid var(--prussian-blue);
+    padding: 8px;
+    text-align: left;
+}
+
+/* Convert bold text in table to small caps */
+.pivot-table td b {
+    font-variant: small-caps;
+    font-weight: bold;
+    color: var(--dark-cyan);
+}
+
+
