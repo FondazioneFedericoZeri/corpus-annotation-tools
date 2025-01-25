@@ -28,23 +28,20 @@ body {
     background-color: rgba(0, 148, 126, 0.897);
     padding: 20px;
     border-right: 1px solid var(--space-cadet);
-    overflow-y: visible;
+    overflow-y: auto;
     height: 100vh;
     color: white;
-    box-sizing: border-box;
 }
 
 /* Title Above Cards */
 
 .surveyed-tools-title {
-    color: white; /* Colore del testo */
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-align: center;
-    border: 2px solid red; /* Debug: bordo visibile */
-    background-color: blue; /* Debug: sfondo visibile */
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    color: white;
 }
+
 
 
 
