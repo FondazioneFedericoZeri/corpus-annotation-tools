@@ -131,18 +131,35 @@ body {
 
 
 /* Uniform Image Styling */
+/* Uniform Image Styling */
 .card img {
     width: 80px; /* Set a fixed width */
     height: 80px; /* Set a fixed height */
-    object-fit: cover; /* Ensure the image covers the space without distortion */
+    object-fit: contain; /* Ensure the image covers the space without distortion */
     border-radius: 50%; /* Make the image circular */
     border: 2px solid white; /* Optional border for styling */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
     margin: 10px auto; /* Center the image in its container */
+    background-color: white; /* Ensure the image background is always white */
+    display: block;
+}
 
-    /* Effetto grayscale */
-    filter: grayscale(100%);
-    transition: filter 0.3s ease; /* Transizione per rendere più fluido l'effetto hover */
+/* Image Container Styling */
+.image-container {
+    width: 100px; /* Define container width */
+    height: 100px; /* Define container height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; /* Container background is always white */
+    border-radius: 50%; /* Ensure the container is circular */
+    overflow: hidden; /* Crop any excess image outside the container */
+}
+
+.image-container img {
+    width: 100%; /* Image takes full width */
+    height: 100%; /* Image takes full height */
+    object-fit: contain; /* Ensure the image is scaled properly */
 }
 
 .card h3 {
