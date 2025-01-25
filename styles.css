@@ -135,6 +135,14 @@ body {
     transform: translateY(-5px); /* Slightly lift the card */
 }
 
+.card:hover:p {
+    color: #333;
+}
+
+.card:hover:plus {
+    color: white;
+}
+
 /* Title Above Cards */
 .surveyed-tools-title {
     font-size: 24px; /* Matches the other title size */
