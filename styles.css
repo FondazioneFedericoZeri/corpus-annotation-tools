@@ -75,14 +75,9 @@ body {
 } */
 
 .pivot-table td table tr td {
-    border: 2px solid var(--prussian-blue);
+    border: 1px solid #333;
     border-radius: 5px;
 }
-
-/* .pivot-table td table tr td:last-child {
-    border: 2px solid green;
-    border-radius: 10px;
-} */
 
 .pivot-table th {
     background-color: var(--dark-cyan);
@@ -119,20 +114,6 @@ body {
     height: 20px; /* Set image height */
     object-fit: contain; /* Keep image proportions */
 }
-
-
-/* Card Styling 
-
-    .card {
-    background-color: var(--prussian-blue);
-    border: 1px solid var(--white); 
-    border-radius: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: relative;
-    color: var(--antiflash-white);
-} */
 
 /* Card Styling */
 .card {
@@ -292,7 +273,7 @@ body {
 }
 
 .pivot-table th, .pivot-table td {
-    border: 0.5px solid #333;
+    border: 1px solid #333;
     padding: 8px;
     text-align: left;
 }
