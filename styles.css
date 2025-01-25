@@ -206,7 +206,7 @@ body {
     right: 10px;
     width: 20px;
     height: 20px;
-    background-color: var(--dark-cyan);
+    background-color: rgba(0, 148, 126, 0.897);
     color: var(--antiflash-white);
     border-radius: 50%;
     display: flex;
