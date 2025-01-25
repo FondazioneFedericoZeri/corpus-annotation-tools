@@ -356,10 +356,38 @@ body {
 }
 
 /* Highlight row on hover in pivot table */
-.pivot-table tbody tr:hover {
-    background-color: rgba(0, 118, 96, 0.1); /* Colore di sfondo leggero per evidenziare */
+.pivot-table table tbody tr:hover {
+    background-color: rgba(0, 118, 96, 0.1) !important; /* Colore di sfondo leggero per evidenziare */
     transition: background-color 0.3s ease; /* Transizione fluida */
 }
 
+/* Scroll to Top Button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 118, 96, 0.897); /* Verde acqua */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: none; /* Nascosto di default */
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.scroll-to-top:hover {
+    background-color: rgba(0, 98, 80, 0.897); /* Verde più scuro al hover */
+}
+
+.scroll-to-top.show {
+    display: flex; /* Mostra il pulsante quando necessario */
+}
 
 
