@@ -239,6 +239,11 @@ body {
     font-size: 14px;
 }
 
+/* Prevent button + from changing color on card hover */
+.card:hover .plus {
+    color: white !important; /* Mantiene il colore bianco */
+}
+
 /* Details */
 .details {
     display: none;
@@ -250,6 +255,19 @@ body {
 .value:hover {
     background-color: var(--white);
     color: (0, 148, 126, 0.897);
+}
+
+
+/* Link Styling in Cards */
+.card a {
+    color: rgba(0, 118, 96, 0.897); /* Verde acqua come lo sfondo */
+    text-decoration: none; /* Rimuove la sottolineatura */
+    font-weight: bold; /* Evidenziazione */
+}
+
+.card a:hover {
+    text-decoration: underline; /* Sottolineatura al passaggio del mouse */
+    color: rgba(0, 98, 80, 0.897); /* Verde più scuro al hover */
 }
 
 /* Pivot Table Title */
