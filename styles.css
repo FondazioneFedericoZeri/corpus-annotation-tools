@@ -57,14 +57,14 @@ body {
 .pivot-table table {
     width: 100%;
     /* border-collapse: collapse; */
-    border-spacing: 5;
+    border-spacing: 10;
     margin-top: 20px;
-    background: var(--antiflash-white);
+    background: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border: 0px solid var(--prussian-blue);
+    border: 0px solid #333;
 }
 .pivot-table th, .pivot-table td {
-    border: 1px solid var(--prussian-blue);
+    border: 0.5px solid #333;
     /* border-radius: 5px; */
     padding: 8px;
     text-align: left;
@@ -317,6 +317,9 @@ body {
     background-image: linear-gradient(45deg, rgba(185, 218, 212, 0.45) 25%, transparent 25%, transparent 50%, rgba(185, 218, 212, 0.45) 50%, rgba(185, 218, 212, 0.45) 75%, transparent 75%, transparent);
     background-size: 15px 15px; /* Dimensione del pattern */
     background-color: white; /* Sfondo di base */
+    font-variant: small-caps;
+    font-weight: bold;
+    text-transform: lowercase;
 }
 
 /* Dark background for specific rows */
