@@ -284,7 +284,7 @@ body {
 /* Pivot Table Customizations */
 .pivot-table table {
     width: 100%;
-    border-spacing: 10;
+    border-spacing: 20;
     margin-top: 20px;
     background: var(--antiflash-white);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -292,7 +292,7 @@ body {
 }
 
 .pivot-table th, .pivot-table td {
-    border: 1px solid var(--prussian-blue);
+    border: 0.5px solid #333;
     padding: 8px;
     text-align: left;
 }
