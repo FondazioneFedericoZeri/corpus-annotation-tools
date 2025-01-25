@@ -132,11 +132,11 @@ body {
 
 /* Uniform Image Styling */
 .card img {
-    width: 100px; /* Set a fixed width */
-    height: 100px; /* Set a fixed height */
+    width: 80px; /* Set a fixed width */
+    height: 80px; /* Set a fixed height */
     object-fit: cover; /* Ensure the image covers the space without distortion */
     border-radius: 50%; /* Make the image circular */
-    border: 2px solid var(--prussian-blue); /* Optional border for styling */
+    border: 2px solid white; /* Optional border for styling */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
     margin: 10px auto; /* Center the image in its container */
 }
@@ -165,7 +165,6 @@ body {
     font-size: 14px;
     transition: background-color 0.3s;
 }
-
 /*.card .highlight-btn:hover {
     background-color: var(--dark-cyan);
 }*/
