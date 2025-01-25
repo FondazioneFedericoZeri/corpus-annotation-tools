@@ -313,10 +313,16 @@ body {
 }
 
 /* Apply diagonal lines pattern to left column with custom color */
-.pivot-table td:first-child {
+.pivot-table > table > tbody > tr > td:first-child {
     background-image: linear-gradient(45deg, rgba(185, 218, 212, 0.45) 25%, transparent 25%, transparent 50%, rgba(185, 218, 212, 0.45) 50%, rgba(185, 218, 212, 0.45) 75%, transparent 75%, transparent);
     background-size: 15px 15px; /* Dimensione del pattern */
     background-color: white; /* Sfondo di base */
+}
+
+/* Dark background for specific rows */
+.pivot-table tr.black {
+    background-color: #333; /* Dark gray background */
+    color: white; /* White text for contrast */
 }
 
 
