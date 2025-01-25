@@ -284,7 +284,7 @@ body {
 /* Pivot Table Customizations */
 .pivot-table table {
     width: 100%;
-    border-spacing: 0;
+    border-spacing: 5;
     margin-top: 20px;
     background: var(--antiflash-white);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -314,7 +314,7 @@ body {
 
 /* Apply diagonal lines pattern to left column with custom color */
 .pivot-table td:first-child {
-    background-image: linear-gradient(45deg, rgba(0, 118, 96, 0.897) 25%, transparent 25%, transparent 50%, rgba(0, 118, 96, 0.897) 50%, rgba(0, 118, 96, 0.897) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(0, 118, 96, 0.315) 25%, transparent 25%, transparent 50%, rgba(0, 118, 96, 0.379) 50%, rgba(0, 118, 96, 0.315) 75%, transparent 75%, transparent);
     background-size: 15px 15px; /* Dimensione del pattern */
     background-color: white; /* Sfondo di base */
 }
