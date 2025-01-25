@@ -157,8 +157,8 @@ body {
     display: block;
     margin-bottom: 10px;
     padding: 5px 10px;
-    background-color: var(--process-cyan);
-    color: var(--antiflash-white);
+    background-color: white;
+    color: rgba(0, 148, 126, 0.897);
     border: none;
     border-radius: 3px;
     cursor: pointer;
@@ -170,7 +170,7 @@ body {
 }*/
 
 .highlight{
-    background-color: var(--cerulean);
+    background-color: rgba(0, 148, 126, 0.897);
     color: var(--white);
 }
 
@@ -200,5 +200,5 @@ body {
 
 .value:hover {
     background-color: var(--white);
-    color: var(--prussian-blue);
+    color: (0, 148, 126, 0.897);
 }
