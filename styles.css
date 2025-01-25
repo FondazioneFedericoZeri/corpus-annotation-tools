@@ -22,6 +22,7 @@ body {
 }
 
 /* Sidebar */
+
     div.sidebar {
     width: 25%;
     background-color: rgba(0, 148, 126, 0.897);
@@ -31,6 +32,17 @@ body {
     height: 100vh;
     color: var(--white);
 }
+
+/* Title Above Cards */
+
+.surveyed-tools-title {
+    color: white; /* Mantieni il bianco per un buon contrasto */
+    font-size: 24px; /* Dimensione del testo */
+    font-weight: bold; /* Grassetto */
+    margin-bottom: 20px; /* Spazio sotto il titolo */
+    text-align: center; /* Centra il testo */
+}
+
 
 /* Content */
 .content {
@@ -143,15 +155,6 @@ body {
 .card .plus:hover {
     color: white; /* Change plus sign to white on hover */
     background-color: rgba(0, 118, 96, 0.897); /* Optional darker background */
-}
-
-/* Title Above Cards */
-.surveyed-tools-title {
-    font-size: 24px; /* Matches the other title size */
-    color: white; /* White text color */
-    font-weight: bold; /* Bold text */
-    margin-bottom: 20px; /* Adds spacing below the title */
-    text-align: center; /* Centers the title */
 }
 
 
