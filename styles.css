@@ -356,10 +356,14 @@ body {
 }
 
 /* Highlight row on hover in pivot table */
-.pivot-table table tbody tr:hover {
-    background-color: rgba(0, 118, 96, 0.1) !important; /* Colore di sfondo leggero per evidenziare */
+.pivot-table tbody tr:hover {
+    background-color: rgba(0, 118, 96, 0.1); /* Colore di sfondo leggero per evidenziare l'intera riga */
     transition: background-color 0.3s ease; /* Transizione fluida */
 }
 
+/* Ensure row hover effect spans full row */
+.pivot-table tbody tr {
+    display: table-row; /* Assicura che l'intera riga sia trattata come una sezione */
+}
 
 
