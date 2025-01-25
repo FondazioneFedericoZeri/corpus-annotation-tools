@@ -404,24 +404,15 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelector('.reset-btn').addEventListener('click', resetPage);
 });
 
+//vale per provare a gestire le righe in nero
 document.querySelectorAll('.pivot-table td').forEach(cell => {
     const value = cell.getAttribute('data-value');
+    // Salta le celle personalizzate
     if (["Software", "Data support", "Diversity features", "Annotation", "User Experience", "UD/PARSEME specifics"].includes(value)) {
-        // Salta le celle personalizzate
-        return;
+        return; // Non applicare il pattern
     }
     // Applicazione del pattern (se necessario)
-    cell.style.backgroundImage = "linear-gradient(45deg, rgba(0, 118, 96, 0.897) 25%, transparent 25%, transparent 50%, rgba(0, 118, 96, 0.897) 50%, rgba(0, 118, 96, 0.897) 75%, transparent 75%, transparent)";
-});
-
-document.addEventListener('DOMContentLoaded', () => {
-    const specialCells = document.querySelectorAll('.pivot-table td[data-value="Software"], .pivot-table td[data-value="Data support"], .pivot-table td[data-value="Diversity features"], .pivot-table td[data-value="Annotation"], .pivot-table td[data-value="User Experience"], .pivot-table td[data-value="UD/PARSEME specifics"]');
-    specialCells.forEach(cell => {
-        cell.style.backgroundColor = '#333';
-        cell.style.color = 'white';
-        cell.style.fontWeight = 'bold';
-        cell.style.backgroundImage = 'none';
-    });
+    cell.style.backgroundImage = "linear-gradient(45deg, rgba(185, 218, 212, 0.45) 25%, transparent 25%, transparent 50%, rgba(185, 218, 212, 0.45) 50%, rgba(185, 218, 212, 0.45) 75%, transparent 75%, transparent)";
 });
 
 
