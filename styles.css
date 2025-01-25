@@ -366,7 +366,7 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: rgba(0, 118, 96, 0.897); /* Verde acqua */
+    background-color: #333; /* Verde acqua */
     color: white;
     border: none;
     border-radius: 50%;
@@ -383,7 +383,7 @@ body {
 }
 
 .scroll-to-top:hover {
-    background-color: rgba(0, 98, 80, 0.897); /* Verde più scuro al hover */
+    background-color: rgba(0, 148, 126, 0.897);
 }
 
 .scroll-to-top.show {
