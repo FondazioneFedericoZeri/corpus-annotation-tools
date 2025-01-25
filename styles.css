@@ -119,6 +119,12 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: relative;
     color: var(--antiflash-white);
+
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center all elements */
+    gap: 10px; /* Adds spacing between elements */
+
     transition: all 0.3s ease;
 }
 
@@ -129,8 +135,16 @@ body {
     transform: translateY(-5px); /* Slightly lift the card */
 }
 
+/* Title Above Cards */
+.surveyed-tools-title {
+    font-size: 24px; /* Matches the other title size */
+    color: white; /* White text color */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 20px; /* Adds spacing below the title */
+    text-align: center; /* Centers the title */
+}
 
-/* Uniform Image Styling */
+
 /* Uniform Image Styling */
 .card img {
     width: 80px; /* Set a fixed width */
@@ -170,9 +184,12 @@ body {
     font-size: 22px;
     font-family: 'Manrope';
     font-weight: 200;
+    text-align: center;
 }
 .card p {
+    margin-top: 10px;
     font-size: 14px;
+    text-align: center;
     color: var(--antiflash-white);
 }
 .grayed-out {
