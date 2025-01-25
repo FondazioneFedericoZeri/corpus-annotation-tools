@@ -96,7 +96,7 @@ body {
 
 /* Reset Button */
 .reset-btn {
-    background-color: rgba(0, 118, 96, 0.897); /* Green background */
+    background-color: rgba(0, 148, 126, 0.897); 
     color: white; /* White text */
     padding: 10px 20px; /* Adjust padding */
     border: none; /* Remove border */
@@ -273,9 +273,10 @@ body {
 
 /* Pivot Table Title */
 .pivot-table h2 {
-    font-size: 26px; /* Larger font size for the title */
+    font-size: 42px; /* Larger font size for the title */
     color: rgba(0, 118, 96, 0.897); /* Custom color for the title */
     font-weight: bold; /* Bold font weight */
     margin-bottom: 20px; /* Space below the title */
     font-family: manrope;
+    font-weight: 100;
 }
