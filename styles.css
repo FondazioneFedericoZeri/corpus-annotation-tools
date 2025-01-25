@@ -26,7 +26,7 @@ body {
     div.sidebar {
     width: 25%;
     background-color: rgba(0, 148, 126, 0.897);
-    padding: 20px;
+    padding: 30px;
     border-right: 1px solid var(--space-cadet);
     overflow-y: auto;
     height: 100vh;
