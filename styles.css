@@ -309,10 +309,12 @@ body {
     font-variant: small-caps;
     font-weight: bold;
     text-transform: lowercase;
+    font-size: 20px;
 }
 
+/* Apply diagonal lines pattern to left column with custom color */
 .pivot-table td:first-child {
-    background-image: linear-gradient(45deg, #f9f9f9 25%, transparent 25%, transparent 50%, #f9f9f9 50%, #f9f9f9 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(0, 118, 96, 0.897) 25%, transparent 25%, transparent 50%, rgba(0, 118, 96, 0.897) 50%, rgba(0, 118, 96, 0.897) 75%, transparent 75%, transparent);
     background-size: 15px 15px; /* Dimensione del pattern */
     background-color: white; /* Sfondo di base */
 }
