@@ -322,9 +322,17 @@ body {
     text-transform: lowercase;
 }
 
+/* Apply star pattern to right column */
+.pivot-table td:last-child {
+    background-image: radial-gradient(circle, rgba(255, 215, 0, 0.8) 1px, transparent 1px);
+    background-size: 15px 15px; /* Size of the pattern */
+    background-color: white; /* Base background color */
+}
+
+/*blocco nero*/
 .pivot-table table tr.software, 
 .pivot-table table tr.data-support {
-    background-color: #333; /* Dark gray background */
+    background-color: #333; /* Dark gray background */ 
     color: white; /* White text for contrast */
 }
 
