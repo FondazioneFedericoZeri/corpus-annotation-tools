@@ -415,9 +415,3 @@ document.querySelectorAll('.pivot-table td').forEach(cell => {
     cell.style.backgroundImage = "linear-gradient(45deg, rgba(185, 218, 212, 0.45) 25%, transparent 25%, transparent 50%, rgba(185, 218, 212, 0.45) 50%, rgba(185, 218, 212, 0.45) 75%, transparent 75%, transparent)";
 });
 
-/* Highlight row on hover in pivot table */
-.pivot-table tbody tr:hover {
-    background-color: rgba(0, 118, 96, 0.1); /* Colore di sfondo leggero per evidenziare */
-    transition: background-color 0.3s ease; /* Transizione fluida */
-}
-

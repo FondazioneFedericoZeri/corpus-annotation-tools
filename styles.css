@@ -355,7 +355,11 @@ body {
     background-image: none !important; /* Rimuove il pattern */
 }
 
-
+/* Highlight row on hover in pivot table */
+.pivot-table tbody tr:hover {
+    background-color: rgba(0, 118, 96, 0.1); /* Colore di sfondo leggero per evidenziare */
+    transition: background-color 0.3s ease; /* Transizione fluida */
+}
 
 
 
