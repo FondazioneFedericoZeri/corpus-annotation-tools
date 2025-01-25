@@ -57,7 +57,7 @@ body {
 .pivot-table table {
     width: 100%;
     /* border-collapse: collapse; */
-    border-spacing: 10;
+    border-spacing: 10px;
     margin-top: 20px;
     background: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -308,6 +308,20 @@ body {
     background-image: radial-gradient(circle, rgba(227, 227, 227, 0.8) 1px, transparent 1px);
     background-size: 15px 15px; /* Size of the pattern */
     background-color: white; /* Base background color */
+}
+
+/* Apply diagonal lines pattern to "Feature" column header */
+.pivot-table th:first-child {
+    background-image: linear-gradient(45deg, rgba(185, 218, 212, 0.45) 25%, transparent 25%, transparent 50%, rgba(185, 218, 212, 0.45) 50%, rgba(185, 218, 212, 0.45) 75%, transparent 75%, transparent);
+    background-size: 15px 15px; /* Dimensione del pattern */
+    background-color: white; /* Sfondo di base */
+}
+
+/* Apply star pattern to "Details" column header */
+.pivot-table th:last-child {
+    background-image: radial-gradient(circle, rgba(255, 215, 0, 0.8) 1px, transparent 1px);
+    background-size: 15px 15px; /* Dimensione del pattern */
+    background-color: white; /* Sfondo di base */
 }
 
 /*blocco nero*/
