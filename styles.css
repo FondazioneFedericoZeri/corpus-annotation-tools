@@ -305,7 +305,7 @@ body {
 
 /* Apply star pattern to right column */
 .pivot-table td:last-child {
-    background-image: radial-gradient(circle, rgba(255, 215, 0, 0.8) 1px, transparent 1px);
+    background-image: radial-gradient(circle, rgba(227, 227, 227, 0.8) 1px, transparent 1px);
     background-size: 15px 15px; /* Size of the pattern */
     background-color: white; /* Base background color */
 }
