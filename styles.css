@@ -96,19 +96,30 @@ body {
 
 /* Reset Button */
 .reset-btn {
-    background-color: var(--dark-cyan);
-    color: var(--antiflash-white);
-    padding: 5px 10px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    font-size: 14px;
-    margin-left: 20px;
-    transition: background-color 0.3s;
+    background-color: rgba(0, 118, 96, 0.897); /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Adjust padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center vertically */
+    gap: 10px; /* Space between icon and text */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 16px; /* Text size */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
 }
+
 .reset-btn:hover {
-    background-color: var(--process-cyan);
+    background-color: rgba(0, 98, 80, 0.897); /* Darker green on hover */
 }
+
+.reset-btn img {
+    width: 20px; /* Set image width */
+    height: 20px; /* Set image height */
+    object-fit: contain; /* Keep image proportions */
+}
+
 
 /* Card Styling 
 
@@ -197,7 +208,7 @@ body {
     margin: 10px 0 5px;
     font-size: 22px;
     font-family: 'Manrope';
-    font-weight: 200;
+    font-weight: 800;
     text-align: center;
 }
 .card p {
@@ -258,4 +269,13 @@ body {
 .value:hover {
     background-color: var(--white);
     color: (0, 148, 126, 0.897);
+}
+
+/* Pivot Table Title */
+.pivot-table h2 {
+    font-size: 26px; /* Larger font size for the title */
+    color: rgba(0, 118, 96, 0.897); /* Custom color for the title */
+    font-weight: bold; /* Bold font weight */
+    margin-bottom: 20px; /* Space below the title */
+    font-family: manrope;
 }
