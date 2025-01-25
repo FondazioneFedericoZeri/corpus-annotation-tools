@@ -58,7 +58,7 @@ body {
     width: 100%;
     /* border-collapse: collapse; */
     border-spacing: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     background: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border: 0px solid #333;
@@ -284,7 +284,7 @@ body {
 .pivot-table table {
     width: 100%;
     border-spacing: 20;
-    margin-top: 20px;
+    margin-top: 10px;
     background: var(--antiflash-white);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border: 0px solid #333;
@@ -361,33 +361,5 @@ body {
     transition: background-color 0.3s ease; /* Transizione fluida */
 }
 
-/* Scroll to Top Button */
-.scroll-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #333; /* Verde acqua */
-    color: white;
-    border: none;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    font-size: 18px;
-    cursor: pointer;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    display: none; /* Nascosto di default */
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s ease;
-    z-index: 1000;
-}
-
-.scroll-to-top:hover {
-    background-color: rgba(0, 148, 126, 0.897);
-}
-
-.scroll-to-top.show {
-    display: flex; /* Mostra il pulsante quando necessario */
-}
 
 

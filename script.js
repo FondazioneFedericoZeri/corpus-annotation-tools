@@ -425,10 +425,3 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Scorrimento verso l'alto al clic
-document.getElementById('scrollToTopButton').addEventListener('click', () => {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-});
