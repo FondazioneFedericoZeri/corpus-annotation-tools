@@ -167,7 +167,9 @@ body {
 
 .card h3 {
     margin: 10px 0 5px;
-    font-size: 18px;
+    font-size: 22px;
+    font-family: 'Manrope';
+    font-weight: 200;
 }
 .card p {
     font-size: 14px;
