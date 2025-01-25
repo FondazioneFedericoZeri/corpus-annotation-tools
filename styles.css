@@ -311,10 +311,15 @@ body {
 }
 
 /*blocco nero*/
-.pivot-table table tr.software, 
-.pivot-table table tr.data-support {
-    background-color: #333; /* Dark gray background */ 
-    color: white; /* White text for contrast */
+.pivot-table td[data-value="Software"],
+.pivot-table td[data-value="Data support"],
+.pivot-table td[data-value="Diversity features"],
+.pivot-table td[data-value="Annotation"],
+.pivot-table td[data-value="User Experience"],
+.pivot-table td[data-value="UD/PARSEME specifics"] {
+    background-color: #333; /* Sfondo nero */
+    color: white; /* Testo bianco */
+    font-weight: bold; /* Per evidenziarle ulteriormente */
 }
 
 
